@@ -44,3 +44,7 @@ portfolio.get()
   }
 }
 ```
+
+
+## TODOs
+[ ] Auto retry for `socket hang out` error from robinhood server
