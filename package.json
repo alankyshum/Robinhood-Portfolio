@@ -1,6 +1,6 @@
 {
   "name": "robinhood-portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "return your robinhood portfolio as a es6 promise",
   "main": "index.js",
   "directories": {
