@@ -53,8 +53,8 @@ module.exports = class RobinhoodPortfolio {
           console.log(`Getting info for position for: ${positionData.instrument}`);
           resolve({
             instrumentURL: positionData.instrument,
-            quantity: positionData.quantity,
-            averagePrice: positionData.average_buy_price
+            quantity: parseInt(positionData.quantity),
+            averagePrice: parseFloat(positionData.average_buy_price)
           });
         });
     });
