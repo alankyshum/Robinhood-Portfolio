@@ -47,4 +47,5 @@ portfolio.get()
 
 
 ## TODOs
+[ ] Config to disable verbose mode
 [ ] Auto retry for `socket hang out` error from robinhood server
