@@ -1,0 +1,28 @@
+{
+  "name": "robinhood-portfolio",
+  "version": "1.0.0",
+  "description": "return your robinhood portfolio as a es6 promise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-fetch": "^1.7.3",
+    "nodemon": "^1.14.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asd"
+  },
+  "keywords": [
+    "robinhood",
+    "portfolio"
+  ],
+  "author": "alankyshum",
+  "license": "MIT"
+}
