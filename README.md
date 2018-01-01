@@ -1,5 +1,5 @@
 # Robinhood Portfolio
-> Simply returns your robinhood portfolio, with stock symbols, stock full name, and average buy price
+> Simply returns your Robinhood portfolio, with stock symbols, stock full name, and average buy price
 
 ## Example
 ```javascript
