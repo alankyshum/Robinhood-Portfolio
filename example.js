@@ -4,4 +4,7 @@ const portfolio = new robinhoodPortfolio('YOUR_ACCESS_TOKEN_HERE');
 portfolio.get()
   .then(portfolio => {
     console.log(portfolio);
+  })
+  .catch(err => {
+    console.error(err);
   });

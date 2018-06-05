@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "return your robinhood portfolio as a es6 promise",
   "main": "index.js",
+  "eslint.packageManager": "yarn",
   "directories": {
     "test": "test"
   },

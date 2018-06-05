@@ -33,6 +33,7 @@ module.exports = class RobinhoodPortfolio {
         headers
       })
       const positionDataResponse = await fetchResult.json();
+      if (!positionDataResponse.results) return [];
 
       positionDataResponse.results.forEach(order => {
         console.log(`Getting Position from: ${order.position}`);
