@@ -1,0 +1,299 @@
+{
+  "AMZN": {
+    "name": "Amazon.com, Inc. Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": 1,
+    "averagePrice": 1531.38
+  },
+  "NVDA": {
+    "name": "NVIDIA Corporation Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": 25,
+    "averagePrice": 231.696
+  },
+  "GOOGL": {
+    "name": "Alphabet Inc. Class A Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": 4,
+    "averagePrice": 1016.5717
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": 180,
+    "averagePrice": 13.2328
+  },
+  "RHT": {
+    "name": "Red Hat Inc",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": 39,
+    "averagePrice": 155.4387
+  },
+  "BIDU": {
+    "name": "Baidu, Inc. ADS",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/381545dd-92ed-4d20-9b67-6b664f13fe31/",
+    "quantity": 5,
+    "averagePrice": 244.68
+  },
+  "AAPL": {
+    "name": "Apple Inc. Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": 0,
+    "averagePrice": 171.3853
+  },
+  "QCOM": {
+    "name": "QUALCOMM Incorporated Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/5ea5e761-1747-4911-beec-5a24af338329/",
+    "quantity": 0,
+    "averagePrice": 54.69
+  },
+  "NFLX": {
+    "name": "Netflix, Inc. Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": 1,
+    "averagePrice": 310.18
+  },
+  "TSLA": {
+    "name": "Tesla, Inc. Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": 0,
+    "averagePrice": 286.3
+  },
+  "JD": {
+    "name": "JD.com, Inc. American Depositary Shares",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": 105,
+    "averagePrice": 37.486
+  },
+  "BZUN": {
+    "name": "Baozun Inc. American Depositary Shares",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": 27,
+    "averagePrice": 44.5348
+  },
+  "BABA": {
+    "name": "Alibaba Group Holding Limited",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": 10,
+    "averagePrice": 181.2736
+  },
+  "TAL": {
+    "name": "TAL Education Group",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": 25,
+    "averagePrice": 36.7692
+  },
+  "SPOT": {
+    "name": "Spotify Technology S.A.",
+    "country": "LU",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/9c53326c-d07e-4b82-82d2-b108ec5d9530/",
+    "quantity": 17,
+    "averagePrice": 148.7824
+  },
+  "WB": {
+    "name": "Weibo Corporation American Depositary Share",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": 18,
+    "averagePrice": 119.8217
+  },
+  "CQQQ": {
+    "name": "Guggenheim China Technology ETF",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/5e749643-c5c8-4fa1-974a-f9de581b8036/",
+    "quantity": 0,
+    "averagePrice": 59.0245
+  },
+  "C": {
+    "name": "Citigroup Inc.",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/31f1745b-6060-49c4-a728-3be519f31315/",
+    "quantity": 0,
+    "averagePrice": 75.2
+  },
+  "MCHI": {
+    "name": "iShares MSCI China ETF",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/2741c32d-9cf9-4807-bcfc-e07a84cd843c/",
+    "quantity": 60,
+    "averagePrice": 69.895
+  },
+  "CRM": {
+    "name": "salesforce.com, inc.",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/cf1d849d-06f7-4374-9e84-13129713d0c7/",
+    "quantity": 19,
+    "averagePrice": 118.7784
+  },
+  "WUBA": {
+    "name": "58.COM INC",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": 25,
+    "averagePrice": 82.058
+  },
+  "GXC": {
+    "name": "SPDR S&P China ETF",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/6ffc965c-4231-458c-bbee-bda6ff19a9a7/",
+    "quantity": 0,
+    "averagePrice": 108.6
+  },
+  "TWTR": {
+    "name": "Twitter, Inc.",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/3a47ca97-d5a2-4a55-9045-053a588894de/",
+    "quantity": 20,
+    "averagePrice": 31.999
+  },
+  "INTC": {
+    "name": "Intel Corporation Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/ad059c69-0c1c-4c6b-8322-f53f1bbd69d4/",
+    "quantity": 20,
+    "averagePrice": 48.52
+  },
+  "FB": {
+    "name": "Facebook, Inc. Class A Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": 15,
+    "averagePrice": 175.7409
+  },
+  "NEON": {
+    "name": "Neonode Inc. Common Stock",
+    "country": "SE",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/be873053-c39c-4871-baf4-feebe3e86faf/",
+    "quantity": 0,
+    "averagePrice": 0.8785
+  },
+  "JT": {
+    "name":
+      "Jianpu Technology Inc. American depositary shares, each two representing five Class A ordinary share",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/d22d97c3-ea46-48b1-860e-72b8e854bdb2/",
+    "quantity": 300,
+    "averagePrice": 6.25
+  },
+  "GE": {
+    "name": "General Electric Company",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/39ff611b-84e7-425b-bfb8-6fe2a983fcf3/",
+    "quantity": 0,
+    "averagePrice": 18.9
+  },
+  "SHOP": {
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "country": "CA",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": 0,
+    "averagePrice": 90.0059
+  },
+  "MU": {
+    "name": "Micron Technology, Inc. Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/0a8a072c-e52c-4e41-a2ee-8adbd72217d3/",
+    "quantity": 0,
+    "averagePrice": 0
+  },
+  "VXX": {
+    "name": "iPath S&P 500 VIX Short-Term Futures ETN due 1/30/2019",
+    "country": "GB",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/55b9bfc4-c9e7-42ac-8478-73b0af48fad7/",
+    "quantity": 0,
+    "averagePrice": 51.9412
+  },
+  "RAD": {
+    "name": "Rite Aid Corporation",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/77704159-ecaf-45ad-9c61-d9615a7d27da/",
+    "quantity": 0,
+    "averagePrice": 2.6
+  },
+  "QTWO": {
+    "name": "Q2 Holdings Inc",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": 0,
+    "averagePrice": 37.7656
+  },
+  "MSFT": {
+    "name": "Microsoft Corporation Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": 0,
+    "averagePrice": 70.11
+  },
+  "XIV": {
+    "name": "VelocityShares Daily Inverse VIX Short Term ETN",
+    "country": "SZ",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/e1a5e58f-1ed1-4e7e-9566-a590d7ef28c7/",
+    "quantity": 0,
+    "averagePrice": 82.35
+  },
+  "AFMD": {
+    "name": "Affimed N.V.",
+    "country": "DE",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/f387e7bb-623c-4bcb-9d09-0620e00a499c/",
+    "quantity": 0,
+    "averagePrice": 2.25
+  },
+  "JAZZ": {
+    "name": "Jazz Pharmaceuticals plc Common Stock (Ireland)",
+    "country": "IE",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/29779dad-d467-4487-8700-e2bcee5db258/",
+    "quantity": 0,
+    "averagePrice": 0
+  }
+}

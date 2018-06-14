@@ -1,0 +1,137 @@
+[
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "9.0000",
+    "averagePrice": "121.5000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "6.0000",
+    "averagePrice": "178.0000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": "15.0000",
+    "averagePrice": "71.7000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "73.0000",
+    "averagePrice": "39.6840"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/0a8a072c-e52c-4e41-a2ee-8adbd72217d3/",
+    "quantity": "0.0000",
+    "averagePrice": "0.0000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "10.0000",
+    "averagePrice": "104.5000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "220.0000",
+    "averagePrice": "10.7000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "70.0000",
+    "averagePrice": "33.3757"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "9.0000",
+    "averagePrice": "194.5000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "15.0000",
+    "averagePrice": "177.0646"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/be873053-c39c-4871-baf4-feebe3e86faf/",
+    "quantity": "600.0000",
+    "averagePrice": "0.8785"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/6ffc965c-4231-458c-bbee-bda6ff19a9a7/",
+    "quantity": "20.0000",
+    "averagePrice": "108.6000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "3.0000",
+    "averagePrice": "973.3040"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": "0.0000",
+    "averagePrice": "20.6917"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "17.0000",
+    "averagePrice": "172.8165"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "11.0000",
+    "averagePrice": "330.3263"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "64.0000",
+    "averagePrice": "90.0059"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/55b9bfc4-c9e7-42ac-8478-73b0af48fad7/",
+    "quantity": "0.0000",
+    "averagePrice": "51.9412"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/77704159-ecaf-45ad-9c61-d9615a7d27da/",
+    "quantity": "0.0000",
+    "averagePrice": "2.6000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "5.0000",
+    "averagePrice": "944.5400"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "0.0000",
+    "averagePrice": "37.7656"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "0.0000",
+    "averagePrice": "150.9900"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "0.0000",
+    "averagePrice": "70.1100"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/e1a5e58f-1ed1-4e7e-9566-a590d7ef28c7/",
+    "quantity": "0.0000",
+    "averagePrice": "82.3500"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/f387e7bb-623c-4bcb-9d09-0620e00a499c/",
+    "quantity": "0.0000",
+    "averagePrice": "2.2500"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/29779dad-d467-4487-8700-e2bcee5db258/",
+    "quantity": "0.0000",
+    "averagePrice": "0.0000"
+  },
+  {
+    "instrumentURL": "https://api.robinhood.com/instruments/5ea5e761-1747-4911-beec-5a24af338329/",
+    "quantity": "0.0000",
+    "averagePrice": "57.9300"
+  }
+]

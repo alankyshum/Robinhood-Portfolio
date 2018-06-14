@@ -1,15 +1,8 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch'
 const path = require('path');
 const fs = require('fs');
 
-module.exports = class RobinhoodPortfolio {
-  constructor(accessToken) {
-    this.headers = { Authorization: `Token ${accessToken}` };
-    this.robinhoodAPIs = {
-      ordersAPI: 'https://api.robinhood.com/orders/'
-    };
-  }
-
+module.exports = class Portfolio extends Robinhood {
   async get() {
     const self = this;
     return await self.getOrderHistory()
