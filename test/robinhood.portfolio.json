@@ -1,4 +1,20 @@
 {
+  "FB": {
+    "name": "Facebook, Inc. Class A Common Stock",
+    "country": "US",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": 35,
+    "averagePrice": 187.2718
+  },
+  "TAL": {
+    "name": "TAL Education Group",
+    "country": "CN",
+    "instrumentURL":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": 75,
+    "averagePrice": 39.2291
+  },
   "AMZN": {
     "name": "Amazon.com, Inc. Common Stock",
     "country": "US",
@@ -103,14 +119,6 @@
     "quantity": 10,
     "averagePrice": 181.2736
   },
-  "TAL": {
-    "name": "TAL Education Group",
-    "country": "CN",
-    "instrumentURL":
-      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
-    "quantity": 25,
-    "averagePrice": 36.7692
-  },
   "SPOT": {
     "name": "Spotify Technology S.A.",
     "country": "LU",
@@ -190,14 +198,6 @@
       "https://api.robinhood.com/instruments/ad059c69-0c1c-4c6b-8322-f53f1bbd69d4/",
     "quantity": 20,
     "averagePrice": 48.52
-  },
-  "FB": {
-    "name": "Facebook, Inc. Class A Common Stock",
-    "country": "US",
-    "instrumentURL":
-      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
-    "quantity": 15,
-    "averagePrice": 175.7409
   },
   "NEON": {
     "name": "Neonode Inc. Common Stock",

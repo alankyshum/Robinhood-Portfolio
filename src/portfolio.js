@@ -1,8 +1,7 @@
-import fetch from 'node-fetch'
-const path = require('path');
-const fs = require('fs');
+import fetch from 'node-fetch';
+import Robinhood from './robinhood';
 
-module.exports = class Portfolio extends Robinhood {
+export default class Portfolio extends Robinhood {
   async get() {
     const self = this;
     return await self.getOrderHistory()
