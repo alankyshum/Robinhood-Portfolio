@@ -8,7 +8,6 @@
   "scripts": {
     "build": "gulp",
     "prepublish": "npm run build",
-    "debug": "gulp debug:js"
   },
   "repository": {
     "type": "git",
