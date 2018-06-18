@@ -1,79 +1,37 @@
-import fetch from 'node-fetch';
+// import fetch from 'node-fetch';
 import Robinhood from './robinhood';
 
 export default class Portfolio extends Robinhood {
+  constructor(accessToken) {
+    super(accessToken, 'orders');
+  }
+
   async get() {
-    const self = this;
-    return await self.getOrderHistory()
-      .then(positionsURLs => positionsURLs.map((positionsURL) => self.getPositionData(positionsURL)))
-      .then(portfoliosPromiseArray => Promise.all(portfoliosPromiseArray))
-      .then(self.portfolioWithInstrumentsInfo)
+    const orderHistory = await this.getDataFromAPI('next', ['instrument', 'quantity', 'average_price', 'side', 'last_transaction_at']);
+    // TODO: integrate instrument chain symbol
   }
 
-  async getOrderHistory() {
-    console.log('Getting Order History');
-    return await this.getPositionURLs(this.robinhoodAPIs.ordersAPI);
-  }
+  // async portfolioWithInstrumentsInfo(instruments) {
+  //   const portfolio = {};
+  //   const fetchResults = [];
 
-  async getPositionURLs(positionPage) {
-    const headers = this.headers;
-    const positionURLS = new Set();
+  //   for (const instrument of instruments) {
+  //     const fetchResult = await fetch(instrument.instrumentURL, { method: 'GET' })
+  //       .then(res => res.json())
+  //       .then(response => {
+  //         console.log(`Getting info for ${response.name}`);
 
-    while (positionPage) {
-      const fetchResult = await fetch(positionPage, {
-        methods: 'POST',
-        headers
-      })
-      const positionDataResponse = await fetchResult.json();
-      if (!positionDataResponse.results) return [];
+  //         const instrumentInfo = {
+  //           name: response.name,
+  //           country: response.country
+  //         };
 
-      positionDataResponse.results.forEach(order => {
-        console.log(`Getting Position from: ${order.position}`);
-        positionURLS.add(order.position);
-      });
-      positionPage = positionDataResponse.next;
-    }
+  //         portfolio[response.symbol] = {...instrumentInfo, ...instrument};
+  //       });
 
-    return Array.from(positionURLS);
-  }
+  //     fetchResults.push(fetchResult);
+  //   }
 
-  getPositionData(positionsURL) {
-    const headers = this.headers;
-    return new Promise((resolve, reject) => {
-      fetch(positionsURL, { method: 'GET', headers })
-        .then(res => res.json())
-        .then(positionData => {
-          console.log(`Getting info for position for: ${positionData.instrument}`);
-          resolve({
-            instrumentURL: positionData.instrument,
-            quantity: parseInt(positionData.quantity),
-            averagePrice: parseFloat(positionData.average_buy_price)
-          });
-        });
-    });
-  }
-
-  async portfolioWithInstrumentsInfo(instruments) {
-    const portfolio = {};
-    const fetchResults = [];
-
-    for (const instrument of instruments) {
-      const fetchResult = await fetch(instrument.instrumentURL, { method: 'GET' })
-        .then(res => res.json())
-        .then(response => {
-          console.log(`Getting info for ${response.name}`);
-
-          const instrumentInfo = {
-            name: response.name,
-            country: response.country
-          };
-
-          portfolio[response.symbol] = {...instrumentInfo, ...instrument};
-        });
-
-      fetchResults.push(fetchResult);
-    }
-
-    return portfolio;
-  }
+  //   return portfolio;
+  // }
 }
