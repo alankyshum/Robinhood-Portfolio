@@ -1,10 +1,14 @@
-import { Portfolio } from '../src';
+import { Portfolio, Options } from '../src';
+require('dot-env').config();
 
-const portfolio = new Portfolio('d412cd251f791ab855fae75390c1b5c997043c96');
+const portfolio = new Portfolio(process.env.ROBINHOOD_TOKEN);
 portfolio.get()
   .then(portfolio => {
     console.log(portfolio);
   })
-  .catch(err => {
-    console.error(err);
+
+const options = new Options(process.env.ROBINHOOD_TOKEN);
+const positions = options.get()
+  .then(positions => {
+    console.log(positions);
   });

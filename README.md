@@ -2,14 +2,11 @@
 > Simply returns your Robinhood portfolio, with stock symbols, stock full name, and average buy price
 
 ## Example
-```javascript
-const portfolio = new robinhoodPortfolio('YOUR_ACCESS_TOKEN_HERE');
-
-portfolio.get()
-  .then(portfolio => {
-    console.log(portfolio);
-  });
+1. Create/Edit the `.env` to supply the robinhood access token
+```bash
+ROBINHOOD_TOKEN=ae96ffc0cb9b4fe4b997b7974381653497438165
 ```
+2. run `spec/example.js` and check the output
 
 ### Example output
 ```json
@@ -45,7 +42,5 @@ portfolio.get()
 }
 ```
 
-
-## TODOs
-- [ ] Config to disable verbose mode
-- [ ] Auto retry for `socket hang out` error from robinhood server
+## Versioning
+The versioning of this package follows semantic versioning `MAJOR.MINOR.PATCH`.

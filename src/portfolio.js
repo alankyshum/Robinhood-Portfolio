@@ -77,4 +77,3 @@ export default class Portfolio extends Robinhood {
     return portfolio;
   }
 }
-
