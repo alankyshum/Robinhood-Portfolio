@@ -1,0 +1,2775 @@
+[
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": "25.00000",
+    "average_price": "73.26100000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-25T14:48:02.677000Z",
+    "name": "58.COM INC",
+    "symbol": "WUBA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/2741c32d-9cf9-4807-bcfc-e07a84cd843c/",
+    "quantity": "60.00000",
+    "average_price": "65.56000000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-25T13:55:45.337000Z",
+    "name": "iShares MSCI China ETF",
+    "symbol": "MCHI",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "18.00000",
+    "average_price": "93.89100000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-25T13:55:15.201000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "39.00000",
+    "average_price": "145.28010000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-22T14:08:45.676000Z",
+    "name": "Red Hat Inc",
+    "symbol": "RHT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "90.00000",
+    "average_price": "41.01500000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-21T19:05:23.064000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "60.00000",
+    "average_price": "15.74100000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-21T19:02:39.170000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "27.00000",
+    "average_price": "62.54010000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-21T19:02:08.960000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/2741c32d-9cf9-4807-bcfc-e07a84cd843c/",
+    "quantity": "30.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2018-06-19T22:00:04.290000Z",
+    "name": "iShares MSCI China ETF",
+    "symbol": "MCHI",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/381545dd-92ed-4d20-9b67-6b664f13fe31/",
+    "quantity": "4.00000",
+    "average_price": "258.54000000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-19T14:54:18.533000Z",
+    "name": "Baidu, Inc. ADS",
+    "symbol": "BIDU",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "4.00000",
+    "average_price": "256.75000000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-19T14:53:37.994000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ad059c69-0c1c-4c6b-8322-f53f1bbd69d4/",
+    "quantity": "20.00000",
+    "average_price": "53.11990000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-18T13:49:07.798000Z",
+    "name": "Intel Corporation Common Stock",
+    "symbol": "INTC",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/3a47ca97-d5a2-4a55-9045-053a588894de/",
+    "quantity": "20.00000",
+    "average_price": "46.91500000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-15T15:12:41.145000Z",
+    "name": "Twitter, Inc.",
+    "symbol": "TWTR",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "120.00000",
+    "average_price": "16.26500000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-15T15:12:22.667000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "20.00000",
+    "average_price": "195.92000000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-14T15:33:40.831000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": "50.00000",
+    "average_price": "40.45900000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-14T14:48:51.248000Z",
+    "name": "TAL Education Group",
+    "symbol": "TAL",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "2.00000",
+    "average_price": "1687.83000000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-11T15:55:37.498000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "13.00000",
+    "average_price": "263.12100000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-06T17:39:44.553000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "2.00000",
+    "average_price": "1144.78010000",
+    "side": "sell",
+    "last_transaction_at": "2018-06-06T16:41:01.691000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "100.00000",
+    "average_price": "14.27500000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-01T15:39:35.414000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "10.00000",
+    "average_price": "166.00000000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-01T15:13:10.637000Z",
+    "name": "Red Hat Inc",
+    "symbol": "RHT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "10.00000",
+    "average_price": "166.07300000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-01T15:11:00.407000Z",
+    "name": "Red Hat Inc",
+    "symbol": "RHT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "7.00000",
+    "average_price": "165.55900000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-01T14:51:06.496000Z",
+    "name": "Red Hat Inc",
+    "symbol": "RHT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "1.00000",
+    "average_price": "1639.92000000",
+    "side": "buy",
+    "last_transaction_at": "2018-06-01T14:48:00.611000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/381545dd-92ed-4d20-9b67-6b664f13fe31/",
+    "quantity": "5.00000",
+    "average_price": "244.68000000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-31T15:43:54.517000Z",
+    "name": "Baidu, Inc. ADS",
+    "symbol": "BIDU",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "120.00000",
+    "average_price": "13.76100000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-31T15:04:18.113000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "19.00000",
+    "average_price": "186.68010000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-31T15:02:56.822000Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5ea5e761-1747-4911-beec-5a24af338329/",
+    "quantity": "20.00000",
+    "average_price": "58.24010000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-31T14:36:28.226000Z",
+    "name": "QUALCOMM Incorporated Common Stock",
+    "symbol": "QCOM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "3.00000",
+    "average_price": "328.68100000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-17T14:18:36.245000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "15.00000",
+    "average_price": "287.29100000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-17T14:16:47.244000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "12.00000",
+    "average_price": "36.27900000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-16T15:19:37.265000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "3.00000",
+    "average_price": "162.98900000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-16T15:17:47.354000Z",
+    "name": "Red Hat Inc",
+    "symbol": "RHT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "1.00000",
+    "average_price": "1585.30900000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-16T15:16:28.764000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "10.00000",
+    "average_price": "45.01900000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-16T15:16:11.369000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "8.00000",
+    "average_price": "49.08010000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-09T16:36:50.335000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "18.00000",
+    "average_price": "195.18010000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-08T14:14:03.251000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "30.00000",
+    "average_price": "36.43000000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-03T16:03:30.811000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": "25.00000",
+    "average_price": "36.76900000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-03T16:02:53.501000Z",
+    "name": "TAL Education Group",
+    "symbol": "TAL",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/9c53326c-d07e-4b82-82d2-b108ec5d9530/",
+    "quantity": "7.00000",
+    "average_price": "155.90000000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-03T14:59:21.117000Z",
+    "name": "Spotify Technology S.A.",
+    "symbol": "SPOT",
+    "country": "LU"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "25.00000",
+    "average_price": "36.99990000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-02T14:51:18.859000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "8.00000",
+    "average_price": "117.95000000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-02T14:45:29.357000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5e749643-c5c8-4fa1-974a-f9de581b8036/",
+    "quantity": "40.00000",
+    "average_price": "57.75000000",
+    "side": "sell",
+    "last_transaction_at": "2018-05-02T14:41:02.253000Z",
+    "name": "Guggenheim China Technology ETF",
+    "symbol": "CQQQ",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "5.00000",
+    "average_price": "227.50000000",
+    "side": "buy",
+    "last_transaction_at": "2018-05-02T14:44:42.347000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "13.00000",
+    "average_price": "36.85000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-27T14:20:08.156000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "5.00000",
+    "average_price": "211.99900000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-25T14:16:24.429000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "7.00000",
+    "average_price": "165.36000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-24T14:10:05.364000Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/31f1745b-6060-49c4-a728-3be519f31315/",
+    "quantity": "9.00000",
+    "average_price": "70.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-04-24T13:56:01.585000Z",
+    "name": "Citigroup Inc.",
+    "symbol": "C",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/2741c32d-9cf9-4807-bcfc-e07a84cd843c/",
+    "quantity": "15.00000",
+    "average_price": "67.08000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-16T14:22:42.153000Z",
+    "name": "iShares MSCI China ETF",
+    "symbol": "MCHI",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5e749643-c5c8-4fa1-974a-f9de581b8036/",
+    "quantity": "20.00000",
+    "average_price": "58.59900000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-16T14:22:20.010000Z",
+    "name": "Guggenheim China Technology ETF",
+    "symbol": "CQQQ",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/cf1d849d-06f7-4374-9e84-13129713d0c7/",
+    "quantity": "10.00000",
+    "average_price": "119.47920000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-16T14:21:57.447000Z",
+    "name": "salesforce.com, inc.",
+    "symbol": "CRM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": "25.00000",
+    "average_price": "82.05790000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-11T15:29:16.660000Z",
+    "name": "58.COM INC",
+    "symbol": "WUBA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "10.00000",
+    "average_price": "121.31910000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-10T14:31:10.903000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "5.00000",
+    "average_price": "226.27000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-10T14:30:21.050000Z",
+    "name": "NVIDIA CorporationCommon Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "10.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2018-04-10T14:30:48.156000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5ea5e761-1747-4911-beec-5a24af338329/",
+    "quantity": "20.00000",
+    "average_price": "54.69000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-05T14:44:32.999000Z",
+    "name": "QUALCOMM Incorporated Common Stock",
+    "symbol": "QCOM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "25.00000",
+    "average_price": "40.14900000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-05T14:25:08.648000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/6ffc965c-4231-458c-bbee-bda6ff19a9a7/",
+    "quantity": "20.00000",
+    "average_price": "110.27260000",
+    "side": "sell",
+    "last_transaction_at": "2018-04-05T14:14:38.995000Z",
+    "name": "SPDR S&P China ETF",
+    "symbol": "GXC",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5e749643-c5c8-4fa1-974a-f9de581b8036/",
+    "quantity": "20.00000",
+    "average_price": "59.45000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-05T14:13:51.145000Z",
+    "name": "Guggenheim China Technology ETF",
+    "symbol": "CQQQ",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "33.00000",
+    "average_price": "118.05000000",
+    "side": "sell",
+    "last_transaction_at": "2018-04-05T14:13:01.958000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": "15.00000",
+    "average_price": "79.13010000",
+    "side": "sell",
+    "last_transaction_at": "2018-04-05T14:12:40.247000Z",
+    "name": "58.COM INC",
+    "symbol": "WUBA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5e749643-c5c8-4fa1-974a-f9de581b8036/",
+    "quantity": "20.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2018-04-05T14:13:36.695000Z",
+    "name": "Guggenheim China Technology ETF",
+    "symbol": "CQQQ",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "10.00000",
+    "average_price": "270.45000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-04T14:54:18.937000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "1.00000",
+    "average_price": "1368.91000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-04T13:59:35.344000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/3a47ca97-d5a2-4a55-9045-053a588894de/",
+    "quantity": "10.00000",
+    "average_price": "28.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-04-04T15:31:13.377000Z",
+    "name": "Twitter, Inc.",
+    "symbol": "TWTR",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ad059c69-0c1c-4c6b-8322-f53f1bbd69d4/",
+    "quantity": "20.00000",
+    "average_price": "48.52000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-04T13:57:24.647000Z",
+    "name": "Intel Corporation Common Stock",
+    "symbol": "INTC",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "6.00000",
+    "average_price": "169.69900000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-04T13:53:31.138000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "7.00000",
+    "average_price": "152.67010000",
+    "side": "sell",
+    "last_transaction_at": "2018-04-04T13:53:07.338000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/9c53326c-d07e-4b82-82d2-b108ec5d9530/",
+    "quantity": "10.00000",
+    "average_price": "143.80000000",
+    "side": "buy",
+    "last_transaction_at": "2018-04-04T13:00:00.823000Z",
+    "name": "Spotify Technology S.A.",
+    "symbol": "SPOT",
+    "country": "LU"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "15.00000",
+    "average_price": "119.20000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-29T15:22:33.408000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "25.00000",
+    "average_price": "44.25000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-29T15:21:43.477000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "2.00000",
+    "average_price": "251.14010000",
+    "side": "sell",
+    "last_transaction_at": "2018-03-29T14:19:19.380000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/31f1745b-6060-49c4-a728-3be519f31315/",
+    "quantity": "9.00000",
+    "average_price": "68.43000000",
+    "side": "sell",
+    "last_transaction_at": "2018-03-29T14:18:41.166000Z",
+    "name": "Citigroup Inc.",
+    "symbol": "C",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "8.00000",
+    "average_price": "223.55000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-29T14:14:28.191000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "8.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2018-03-29T14:13:33.568000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "10.00000",
+    "average_price": "180.09930000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-29T14:07:54.466000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/2741c32d-9cf9-4807-bcfc-e07a84cd843c/",
+    "quantity": "15.00000",
+    "average_price": "67.50000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-28T18:23:46.241000Z",
+    "name": "iShares MSCI China ETF",
+    "symbol": "MCHI",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/cf1d849d-06f7-4374-9e84-13129713d0c7/",
+    "quantity": "9.00000",
+    "average_price": "118.00000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-27T14:08:49.815000Z",
+    "name": "salesforce.com, inc.",
+    "symbol": "CRM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/cf1d849d-06f7-4374-9e84-13129713d0c7/",
+    "quantity": "6.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2018-03-26T22:03:11.202000Z",
+    "name": "salesforce.com, inc.",
+    "symbol": "CRM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "4.00000",
+    "average_price": "310.18000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-26T14:34:12.294000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "8.00000",
+    "average_price": "125.25000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-26T14:33:57.245000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "5.00000",
+    "average_price": "239.44000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-26T14:32:57.896000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/3a47ca97-d5a2-4a55-9045-053a588894de/",
+    "quantity": "30.00000",
+    "average_price": "31.99900000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-26T14:32:28.199000Z",
+    "name": "Twitter, Inc.",
+    "symbol": "TWTR",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/be873053-c39c-4871-baf4-feebe3e86faf/",
+    "quantity": "600.00000",
+    "average_price": "0.40030000",
+    "side": "sell",
+    "last_transaction_at": "2018-03-23T15:35:08.114000Z",
+    "name": "Neonode Inc. Common Stock",
+    "symbol": "NEON",
+    "country": "SE"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/31f1745b-6060-49c4-a728-3be519f31315/",
+    "quantity": "9.00000",
+    "average_price": "70.14000000",
+    "side": "sell",
+    "last_transaction_at": "2018-03-23T15:00:17.724000Z",
+    "name": "Citigroup Inc.",
+    "symbol": "C",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "7.00000",
+    "average_price": "318.00000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-21T16:00:09.606000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "2.00000",
+    "average_price": "1105.17000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-21T15:57:01.225000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "12.00000",
+    "average_price": "173.20000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-19T15:26:43.456000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "10.00000",
+    "average_price": "249.00000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-14T15:11:28.907000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d22d97c3-ea46-48b1-860e-72b8e854bdb2/",
+    "quantity": "300.00000",
+    "average_price": "6.25000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-13T14:18:52.687000Z",
+    "name":
+      "Jianpu Technology Inc. American depositary shares, each two representing five Class A ordinary share",
+    "symbol": "JT",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "6.00000",
+    "average_price": "191.00000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-13T13:56:44.757000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/2741c32d-9cf9-4807-bcfc-e07a84cd843c/",
+    "quantity": "30.00000",
+    "average_price": "72.50000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-12T14:02:21.071000Z",
+    "name": "iShares MSCI China ETF",
+    "symbol": "MCHI",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "100.00000",
+    "average_price": "12.04000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-06T14:30:00.223000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "30.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2018-03-06T21:01:53.905000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "6.00000",
+    "average_price": "185.08000000",
+    "side": "buy",
+    "last_transaction_at": "2018-03-06T14:30:33.264000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "100.00000",
+    "average_price": "11.82000000",
+    "side": "buy",
+    "last_transaction_at": "2018-02-22T14:30:01.671000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "10.00000",
+    "average_price": "178.79000000",
+    "side": "buy",
+    "last_transaction_at": "2018-02-22T14:30:01.289000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/39ff611b-84e7-425b-bfb8-6fe2a983fcf3/",
+    "quantity": "120.00000",
+    "average_price": "14.52000000",
+    "side": "sell",
+    "last_transaction_at": "2018-02-22T14:30:12.405000Z",
+    "name": "General Electric Company",
+    "symbol": "GE",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "1.00000",
+    "average_price": "1055.47000000",
+    "side": "buy",
+    "last_transaction_at": "2018-02-08T14:58:23.047000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": "15.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T23:02:02.747000Z",
+    "name": "58.COM INC",
+    "symbol": "WUBA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "23.00000",
+    "average_price": "125.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T17:37:52.684000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "45.00000",
+    "average_price": "38.35000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T16:45:04.518000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "15.00000",
+    "average_price": "238.50000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T16:44:12.720000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "49.00000",
+    "average_price": "47.50000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T17:11:43.216000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "6.00000",
+    "average_price": "188.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T16:54:00.242000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "17.00000",
+    "average_price": "197.50000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T16:44:18.669000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "220.00000",
+    "average_price": "12.80000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-25T16:43:39.300000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "10.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T23:00:40.560000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "15.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T23:00:40.390000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "3.00000",
+    "average_price": "257.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T18:44:14.574000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "6.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T23:00:39.810000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "220.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T23:00:39.110000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "49.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T23:00:38.370000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "17.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-24T23:00:38.170000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "6.00000",
+    "average_price": "220.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-17T18:16:02.699000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/39ff611b-84e7-425b-bfb8-6fe2a983fcf3/",
+    "quantity": "120.00000",
+    "average_price": "18.90000000",
+    "side": "buy",
+    "last_transaction_at": "2018-01-10T18:40:02.564000Z",
+    "name": "General Electric Company",
+    "symbol": "GE",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "45.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2018-01-09T23:03:45.899000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "3.00000",
+    "average_price": "1250.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-09T14:53:33.960000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "11.00000",
+    "average_price": "330.50000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-09T14:55:26.078000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/31f1745b-6060-49c4-a728-3be519f31315/",
+    "quantity": "27.00000",
+    "average_price": "75.20000000",
+    "side": "buy",
+    "last_transaction_at": "2018-01-05T16:42:44.673000Z",
+    "name": "Citigroup Inc.",
+    "symbol": "C",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "12.00000",
+    "average_price": "174.90000000",
+    "side": "buy",
+    "last_transaction_at": "2018-01-05T16:24:50.658000Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "20.00000",
+    "average_price": "111.50000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-05T17:00:09.732000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "21.00000",
+    "average_price": "108.50000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-04T14:41:17.132000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "25.00000",
+    "average_price": "35.30000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-04T14:47:17.401000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "24.00000",
+    "average_price": "43.60000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-04T15:02:33.682000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "2.00000",
+    "average_price": "1100.00000000",
+    "side": "sell",
+    "last_transaction_at": "2018-01-04T14:36:02.336000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/73f0b448-ac9c-49c6-b281-ef28aa51fd3f/",
+    "quantity": "9.00000",
+    "average_price": "121.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-12-27T15:59:58.907000Z",
+    "name": "Red Hat Inc",
+    "symbol": "RHT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "6.00000",
+    "average_price": "178.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-12-27T15:51:01.467000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b6f78772-1d30-42fa-a875-e42224f38f98/",
+    "quantity": "15.00000",
+    "average_price": "71.70000000",
+    "side": "buy",
+    "last_transaction_at": "2017-12-27T16:00:47.968000Z",
+    "name": "58.COM INC",
+    "symbol": "WUBA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "40.00000",
+    "average_price": "42.45000000",
+    "side": "sell",
+    "last_transaction_at": "2017-12-27T15:46:15.014000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/0a8a072c-e52c-4e41-a2ee-8adbd72217d3/",
+    "quantity": "20.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-12-18T23:06:06.953000Z",
+    "name": "Micron Technology, Inc. Common Stock",
+    "symbol": "MU",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "10.00000",
+    "average_price": "104.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-12-13T16:00:30.980000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "10.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-12-13T15:37:16.921000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "80.00000",
+    "average_price": "10.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-12-12T14:49:01.343000Z",
+    "name": "Advanced Micro Devices, Inc.Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "50.00000",
+    "average_price": "38.50000000",
+    "side": "sell",
+    "last_transaction_at": "2017-12-12T15:03:30.012000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "50.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-12-12T14:42:14.111000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "30.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-12-12T14:42:03.421000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "5.00000",
+    "average_price": "190.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-11-29T15:55:44.677000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "4.00000",
+    "average_price": "197.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-29T15:50:55.896000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "70.00000",
+    "average_price": "10.80000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-29T16:27:16.876000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "70.00000",
+    "average_price": "11.40000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-21T15:41:50.444000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "70.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-11-20T23:02:32.099000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/be873053-c39c-4871-baf4-feebe3e86faf/",
+    "quantity": "600.00000",
+    "average_price": "0.87850000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-16T15:07:17.100000Z",
+    "name": "Neonode Inc. Common Stock",
+    "symbol": "NEON",
+    "country": "SE"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "10.00000",
+    "average_price": "195.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-16T20:32:02.878000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/6ffc965c-4231-458c-bbee-bda6ff19a9a7/",
+    "quantity": "20.00000",
+    "average_price": "108.60000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-16T14:41:43.100000Z",
+    "name": "SPDR S&P China ETF",
+    "symbol": "GXC",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "2.00000",
+    "average_price": "1125.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-11-15T15:49:40.796000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": "18.00000",
+    "average_price": "28.90000000",
+    "side": "sell",
+    "last_transaction_at": "2017-11-15T15:46:27Z",
+    "name": "TAL Education Group",
+    "symbol": "TAL",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "6.00000",
+    "average_price": "211.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-11-15T19:55:53.737000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "7.00000",
+    "average_price": "178.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-11-15T15:59:58.576000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "4.00000",
+    "average_price": "192.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-09T14:56:32.399000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "4.00000",
+    "average_price": "183.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-09T14:55:27.862000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "3.00000",
+    "average_price": "304.94000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-02T13:42:19.965000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "10.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-11-01T22:02:17.404000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "30.00000",
+    "average_price": "31.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-11-01T16:26:59.653000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "2.00000",
+    "average_price": "177.08000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-18T13:30:17.357000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "4.00000",
+    "average_price": "96.07000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-18T13:30:01.699000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "10.00000",
+    "average_price": "35.42000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-18T13:30:17.329000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "3.00000",
+    "average_price": "181.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-13T14:10:32.506000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "30.00000",
+    "average_price": "38.92000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-13T14:05:01.274000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "3.00000",
+    "average_price": "181.24000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-13T14:04:28.974000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/55b9bfc4-c9e7-42ac-8478-73b0af48fad7/",
+    "quantity": "7.00000",
+    "average_price": "37.21000000",
+    "side": "sell",
+    "last_transaction_at": "2017-10-10T13:30:00.056000Z",
+    "name": "iPath S&P 500 VIX Short-Term Futures ETN due 1/30/2019",
+    "symbol": "VXX",
+    "country": "GB"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/77704159-ecaf-45ad-9c61-d9615a7d27da/",
+    "quantity": "100.00000",
+    "average_price": "1.89000000",
+    "side": "sell",
+    "last_transaction_at": "2017-10-10T13:30:07.480000Z",
+    "name": "Rite Aid Corporation",
+    "symbol": "RAD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/77704159-ecaf-45ad-9c61-d9615a7d27da/",
+    "quantity": "200.00000",
+    "average_price": "2.07100000",
+    "side": "sell",
+    "last_transaction_at": "2017-10-05T14:05:45.468000Z",
+    "name": "Rite Aid Corporation",
+    "symbol": "RAD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "5.00000",
+    "average_price": "180.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-05T14:03:55.434000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "25.00000",
+    "average_price": "38.30000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-05T14:05:00.546000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "30.00000",
+    "average_price": "34.57000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-05T14:02:38.819000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "8.00000",
+    "average_price": "96.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-10-05T13:31:15.519000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "18.00000",
+    "average_price": "41.30000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-25T15:21:01.216000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "2.00000",
+    "average_price": "349.43800000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-25T15:19:18.427000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "26.00000",
+    "average_price": "114.70000000",
+    "side": "sell",
+    "last_transaction_at": "2017-09-25T15:12:11.070000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "4.00000",
+    "average_price": "172.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-25T15:08:27.415000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "5.00000",
+    "average_price": "170.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-22T16:55:13.743000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "5.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-09-21T20:09:41.328282Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "1.00000",
+    "average_price": "965.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-21T16:43:11.869000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "20.00000",
+    "average_price": "44.68930000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-13T14:59:32.449000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "4.00000",
+    "average_price": "169.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-13T15:11:40.993000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "2.00000",
+    "average_price": "367.50000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-13T14:59:00.393000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "2.00000",
+    "average_price": "172.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-09-08T16:15:03.637000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "20.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-09-08T20:08:36.140786Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "10.00000",
+    "average_price": "90.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-08-10T15:40:42.490000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b2e06903-5c44-46a4-bd42-2a696f9d68e1/",
+    "quantity": "5.00000",
+    "average_price": "153.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-08-03T15:28:12.810000Z",
+    "name": "Alibaba Group Holding Limited",
+    "symbol": "BABA",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "50.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-08-03T20:03:11.078553Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "1.00000",
+    "average_price": "944.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-08-03T15:30:53.248000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "74.00000",
+    "average_price": "37.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-08-03T15:22:51.132000Z",
+    "name": "Q2 Holdings Inc",
+    "symbol": "QTWO",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "1.00000",
+    "average_price": "316.89000000",
+    "side": "buy",
+    "last_transaction_at": "2017-08-02T14:37:19.873000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "1.00000",
+    "average_price": "938.29900000",
+    "side": "buy",
+    "last_transaction_at": "2017-08-02T14:36:53.673000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "7.00000",
+    "average_price": "157.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-08-02T14:34:30.885000Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "1.00000",
+    "average_price": "320.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-08-01T16:37:44.199000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "2.00000",
+    "average_price": "1001.86990000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-31T15:01:40.895000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/54db869e-f7d5-45fb-88f1-8d7072d4c8b2/",
+    "quantity": "3.00000",
+    "average_price": "946.79900000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-31T14:58:16.108000Z",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "symbol": "GOOGL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "2.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-07-31T15:01:24.447000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "17.00000",
+    "average_price": "174.50000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-27T15:17:22.615000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "12.00000",
+    "average_price": "74.10000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-26T16:17:19.229000Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "10.00000",
+    "average_price": "93.79000000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-26T15:55:39.403000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "90.00000",
+    "average_price": "15.19010000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-26T15:52:24.156000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "12.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-07-26T16:14:09.145000Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "8.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-07-20T20:02:05.865000Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "7.00000",
+    "average_price": "150.99000000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-20T16:27:56.246000Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "7.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-07-20T15:45:55.354641Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/450dfc6d-5510-4d40-abfb-f633b7d9be3e/",
+    "quantity": "7.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-07-20T15:45:20.254650Z",
+    "name": "Apple Inc. Common Stock",
+    "symbol": "AAPL",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/77704159-ecaf-45ad-9c61-d9615a7d27da/",
+    "quantity": "300.00000",
+    "average_price": "2.60000000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-20T13:31:53.399000Z",
+    "name": "Rite Aid Corporation",
+    "symbol": "RAD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "10.00000",
+    "average_price": "186.25000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-19T16:03:24.117000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "8.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-07-20T04:54:28.022323Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "15.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-07-18T20:02:44.327000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "6.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-07-13T20:02:11.096000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/55b9bfc4-c9e7-42ac-8478-73b0af48fad7/",
+    "quantity": "30.00000",
+    "average_price": "12.98500000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-11T16:15:59.122000Z",
+    "name": "iPath S&P 500 VIX Short-Term Futures ETN due 1/30/2019",
+    "symbol": "VXX",
+    "country": "GB"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e1a5e58f-1ed1-4e7e-9566-a590d7ef28c7/",
+    "quantity": "10.00000",
+    "average_price": "82.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-11T16:45:02.429000Z",
+    "name": "VelocityShares Daily Inverse VIX Short Term ETN",
+    "symbol": "XIV",
+    "country": "SZ"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb/",
+    "quantity": "4.00000",
+    "average_price": "153.81500000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-11T15:42:27.922000Z",
+    "name": "NVIDIA Corporation Common Stock",
+    "symbol": "NVDA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": "2.00000",
+    "average_price": "130.50000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-11T15:37:49.113000Z",
+    "name": "TAL Education Group",
+    "symbol": "TAL",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "4.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-07-11T20:02:02.936000Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e39ed23a-7bd1-4587-b060-71988d9ef483/",
+    "quantity": "2.00000",
+    "average_price": "324.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-11T15:36:18.647000Z",
+    "name": "Tesla, Inc. Common Stock",
+    "symbol": "TSLA",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "50.00000",
+    "average_price": "14.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-11T16:49:07.915000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/e1a5e58f-1ed1-4e7e-9566-a590d7ef28c7/",
+    "quantity": "10.00000",
+    "average_price": "82.35000000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-10T14:28:03.943000Z",
+    "name": "VelocityShares Daily Inverse VIX Short Term ETN",
+    "symbol": "XIV",
+    "country": "SZ"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/f387e7bb-623c-4bcb-9d09-0620e00a499c/",
+    "quantity": "250.00000",
+    "average_price": "2.40000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-10T14:36:27.758000Z",
+    "name": "Affimed N.V.",
+    "symbol": "AFMD",
+    "country": "DE"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8de895e1-2836-4a5a-b6c7-f5e8232fd2ae/",
+    "quantity": "5.00000",
+    "average_price": "124.15000000",
+    "side": "buy",
+    "last_transaction_at": "2017-07-06T15:07:01.942000Z",
+    "name": "TAL Education Group",
+    "symbol": "TAL",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "70.00000",
+    "average_price": "24.00000000",
+    "side": "sell",
+    "last_transaction_at": "2017-07-05T17:10:57.229000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "10.00000",
+    "average_price": "84.83900000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-29T15:37:14.166000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "4.00000",
+    "average_price": "156.62000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-27T13:30:01.855000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "12.00000",
+    "average_price": "70.11000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-27T13:30:00.872000Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/50810c35-d215-4866-9758-0ada4ac79ffa/",
+    "quantity": "10.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-06-21T20:01:41.066768Z",
+    "name": "Microsoft Corporation Common Stock",
+    "symbol": "MSFT",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "6.00000",
+    "average_price": "154.27000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-21T18:12:24.504000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "60.00000",
+    "average_price": "12.74000000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-20T19:15:11.473000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "2.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-06-19T20:01:03.977000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "10.00000",
+    "average_price": "151.51100000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-14T19:08:56.610000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/29779dad-d467-4487-8700-e2bcee5db258/",
+    "quantity": "7.00000",
+    "average_price": null,
+    "side": "buy",
+    "last_transaction_at": "2017-06-14T19:10:33.357000Z",
+    "name": "Jazz Pharmaceuticals plc Common Stock (Ireland)",
+    "symbol": "JAZZ",
+    "country": "IE"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "7.00000",
+    "average_price": "153.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-13T14:16:35.808000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "100.00000",
+    "average_price": "11.93100000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-12T14:17:40.507000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "30.00000",
+    "average_price": "38.15010000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-12T13:57:12.905000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "12.00000",
+    "average_price": "85.40000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-12T13:56:09.828000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "8.00000",
+    "average_price": "145.34000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-12T13:55:49.811000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "40.00000",
+    "average_price": "72.03200000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-12T13:54:42.323000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "2.00000",
+    "average_price": "148.66010000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-12T13:52:48.222000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "6.00000",
+    "average_price": "36.95000000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-12T13:51:28.638000Z",
+    "name": "Q2 Holdings Inc",
+    "symbol": "QTWO",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "1.00000",
+    "average_price": "91.26700000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-09T19:55:07.857000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "20.00000",
+    "average_price": "99.98900000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-09T15:19:10.657000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "60.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-06-13T14:14:06.585000Z",
+    "name": "Q2 Holdings Inc",
+    "symbol": "QTWO",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "30.00000",
+    "average_price": "23.20000000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-08T15:15:53.131000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "5.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-06-07T20:00:40.439000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "20.00000",
+    "average_price": "38.34500000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-07T16:00:20.204000Z",
+    "name": "Q2 Holdings Inc",
+    "symbol": "QTWO",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "5.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-06-07T16:01:47.213000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/f387e7bb-623c-4bcb-9d09-0620e00a499c/",
+    "quantity": "250.00000",
+    "average_price": "2.25000000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-06T14:31:43.628000Z",
+    "name": "Affimed N.V.",
+    "symbol": "AFMD",
+    "country": "DE"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5ea5e761-1747-4911-beec-5a24af338329/",
+    "quantity": "25.00000",
+    "average_price": "58.84010000",
+    "side": "sell",
+    "last_transaction_at": "2017-06-06T14:11:30.077000Z",
+    "name": "QUALCOMM Incorporated Common Stock",
+    "symbol": "QCOM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "30.00000",
+    "average_price": "39.14500000",
+    "side": "buy",
+    "last_transaction_at": "2017-06-06T14:08:46.736000Z",
+    "name": "Q2 Holdings Inc",
+    "symbol": "QTWO",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "66.00000",
+    "average_price": null,
+    "side": "sell",
+    "last_transaction_at": "2017-05-18T20:01:46.161295Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/ebab2398-028d-4939-9f1d-13bf38f81c50/",
+    "quantity": "9.00000",
+    "average_price": "147.94000000",
+    "side": "buy",
+    "last_transaction_at": "2017-05-17T14:23:32.841000Z",
+    "name": "Facebook, Inc. Class A Common Stock",
+    "symbol": "FB",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/8f6e5846-e6e3-4452-a1a2-5a46a630bd73/",
+    "quantity": "40.00000",
+    "average_price": "62.11000000",
+    "side": "buy",
+    "last_transaction_at": "2017-05-10T14:23:38.014000Z",
+    "name": "Weibo Corporation American Depositary Share",
+    "symbol": "WB",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/c0bb3aec-bd1e-471e-a4f0-ca011cbec711/",
+    "quantity": "2.00000",
+    "average_price": "948.89000000",
+    "side": "buy",
+    "last_transaction_at": "2017-05-10T14:22:37.094000Z",
+    "name": "Amazon.com, Inc. Common Stock",
+    "symbol": "AMZN",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/b1e0ba21-bf54-454a-a409-89fe275bbe05/",
+    "quantity": "100.00000",
+    "average_price": "38.65990000",
+    "side": "buy",
+    "last_transaction_at": "2017-05-10T14:22:17.896000Z",
+    "name": "JD.com, Inc. American Depositary Shares",
+    "symbol": "JD",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/940fc3f5-1db5-4fed-b452-f3a2e4562b5f/",
+    "quantity": "300.00000",
+    "average_price": "10.17920000",
+    "side": "buy",
+    "last_transaction_at": "2017-05-04T14:08:11.976000Z",
+    "name": "Advanced Micro Devices, Inc. Common Stock",
+    "symbol": "AMD",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/d05566bf-b0cc-414b-a520-b9216bb80abf/",
+    "quantity": "15.00000",
+    "average_price": "74.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-04-26T14:06:30.012000Z",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "symbol": "SHOP",
+    "country": "CA"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/fbdedc1e-31cc-4a0b-9b8e-21f218a37cee/",
+    "quantity": "30.00000",
+    "average_price": "36.00000000",
+    "side": "buy",
+    "last_transaction_at": "2017-04-07T13:30:27.497000Z",
+    "name": "Q2 Holdings Inc",
+    "symbol": "QTWO",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/24589df6-1a0a-4440-b8c4-d533ba53c3c8/",
+    "quantity": "100.00000",
+    "average_price": "15.04000000",
+    "side": "buy",
+    "last_transaction_at": "2017-04-07T13:30:01.953000Z",
+    "name": "Baozun Inc. American Depositary Shares",
+    "symbol": "BZUN",
+    "country": "CN"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/5ea5e761-1747-4911-beec-5a24af338329/",
+    "quantity": "25.00000",
+    "average_price": "57.93000000",
+    "side": "buy",
+    "last_transaction_at": "2017-03-21T13:30:02.696000Z",
+    "name": "QUALCOMM Incorporated Common Stock",
+    "symbol": "QCOM",
+    "country": "US"
+  },
+  {
+    "instrument":
+      "https://api.robinhood.com/instruments/81733743-965a-4d93-b87a-6973cb9efd34/",
+    "quantity": "5.00000",
+    "average_price": "142.95000000",
+    "side": "buy",
+    "last_transaction_at": "2017-03-14T13:30:00.498000Z",
+    "name": "Netflix, Inc. Common Stock",
+    "symbol": "NFLX",
+    "country": "US"
+  }
+]

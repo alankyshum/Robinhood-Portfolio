@@ -1,5 +1,4 @@
 import fetch from 'node-fetch';
-import fs from 'fs';
 import Robinhood from './robinhood';
 
 export default class Portfolio extends Robinhood {
@@ -7,58 +6,53 @@ export default class Portfolio extends Robinhood {
     super(accessToken, 'orders');
   }
 
-  async get() {
-    // const orderHistory = await this.getDataFromAPI('next', ['instrument', 'quantity', 'average_price', 'side', 'last_transaction_at']);
-    const orderHistory = await fs.readFile('test/robinhood.orderhistory.json');
-    this.mapInstrument(orderHistory);
+  async getOrderHistory() {
+    const orderHistory = await this.getDataFromAPI('next', ['instrument', 'quantity', 'average_price', 'side', 'last_transaction_at']);
+    return this.mapInstrument(orderHistory);
   }
 
   async mapInstrument(orderHistory) {
     const stocksURLs = Array.from(new Set(orderHistory.map(order => order.instrument)));
     const batchSize = 10;
-    return this.batchRequest(stocksURLs, batchSize);
+    const instrumentDetails = await this.batchRequest(stocksURLs, batchSize);
+    return Portfolio.mergeOrdersWithInstrumentDetails(orderHistory, instrumentDetails);
   }
 
   async batchRequest(urls, batchSize, batchIndex = 0, results = []) {
-    const batchPromise = urls.map(async (url) => {
+    const sliceRange = [batchIndex * batchSize, ((batchIndex + 1) * batchSize)];
+    const urlBatch = urls.slice(...sliceRange);
+    const batchPromise = urlBatch.map(async (url) => {
       const fetchResponse = await fetch(url, { methods: 'GET' });
       const rawResponse = await fetchResponse.json();
-      return this.filteredHash(rawResponse, ['name', 'symbol', 'country']);
+      return Robinhood.filteredHash(rawResponse, ['name', 'symbol', 'country', 'url']);
     });
 
     const batchResults = await Promise.all(batchPromise);
     const appendedResults = [...results, ...batchResults];
 
-    const nextBatchIndex = batchIndex;
-    const nextBatchUrlSet = urls.splice(nextBatchIndex * batchSize, batchSize);
-    if (nextBatchUrlSet.length) {
-      return this.batchRequest(nextBatchUrlSet, batchSize, nextBatchIndex, appendedResults);
+    const nextBatchIndex = batchIndex + 1;
+    const lastIndex = urls.length - 1;
+    if (nextBatchIndex * batchSize <= lastIndex) {
+      return this.batchRequest(urls, batchSize, nextBatchIndex, appendedResults);
     }
 
-    return results;
+    return appendedResults;
   }
 
-  // async portfolioWithInstrumentsInfo(instruments) {
-  //   const portfolio = {};
-  //   const fetchResults = [];
+  static mergeOrdersWithInstrumentDetails(orderHistory, instrumentDetails) {
+    const instrumentHash = {};
 
-  //   for (const instrument of instruments) {
-  //     const fetchResult = await fetch(instrument.instrumentURL, { method: 'GET' })
-  //       .then(res => res.json())
-  //       .then(response => {
-  //         console.log(`Getting info for ${response.name}`);
+    instrumentDetails.forEach((detail) => {
+      instrumentHash[detail.url] = {
+        name: detail.name,
+        symbol: detail.symbol,
+        country: detail.country,
+      };
+    });
 
-  //         const instrumentInfo = {
-  //           name: response.name,
-  //           country: response.country
-  //         };
-
-  //         portfolio[response.symbol] = {...instrumentInfo, ...instrument};
-  //       });
-
-  //     fetchResults.push(fetchResult);
-  //   }
-
-  //   return portfolio;
-  // }
+    return orderHistory.map(order => ({
+      ...order,
+      ...instrumentHash[order.instrument],
+    }));
+  }
 }
