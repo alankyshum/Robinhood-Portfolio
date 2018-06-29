@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+import Util from './util';
 
 export default class Robinhood {
   API_URL = null;
@@ -20,7 +21,7 @@ export default class Robinhood {
   async getPagedResults(pageURL, nextPageField, resultFields, results = []) {
     const fetchResponse = await fetch(pageURL, { methods: 'POST', headers: this.headers });
     const rawResponse = await fetchResponse.json();
-    const pageResult = rawResponse.results.map(responseResult => Robinhood.filteredHash(responseResult, resultFields));
+    const pageResult = rawResponse.results.map(responseResult => Util.filteredHash(responseResult, resultFields));
     const apendedResults = [...results, ...pageResult];
     const nextPageURL = rawResponse[nextPageField];
     if (nextPageURL) {
@@ -28,12 +29,5 @@ export default class Robinhood {
     }
 
     return apendedResults;
-  }
-
-  static filteredHash(srcHash, fields) {
-    const filteredObject = {};
-    fields.forEach((field) => { filteredObject[field] = srcHash[field]; });
-
-    return filteredObject;
   }
 }
