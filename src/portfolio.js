@@ -2,8 +2,8 @@ import Robinhood from './robinhood';
 import Instruments from './instruments';
 
 export default class Portfolio extends Robinhood {
-  constructor(accessToken) {
-    super(accessToken, 'orders');
+  constructor(accessToken, { testMode }) {
+    super(accessToken, 'orders', testMode);
   }
 
   async getOrderHistory() {

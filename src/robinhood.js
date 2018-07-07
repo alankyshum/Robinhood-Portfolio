@@ -1,21 +1,29 @@
 import fetch from 'node-fetch';
 import Util from './util';
+import MockData from './mock-data';
 
 export default class Robinhood {
-  API_URL = null;
+  apiURL = null;
+  apiType = null;
+  testMode = false;
 
   ROBINHOOD_APIS = {
     orders: 'https://api.robinhood.com/orders/',
     options: 'https://api.robinhood.com/options/positions',
   };
 
-  constructor(accessToken, APIType) {
+  constructor(accessToken, apiType, testMode = false) {
     this.headers = { Authorization: `Token ${accessToken}` };
-    this.API_URL = this.ROBINHOOD_APIS[APIType];
+    this.apiURL = this.ROBINHOOD_APIS[apiType];
+    this.apiType = apiType;
+    this.testMode = testMode;
   }
 
   async getDataFromAPI(nextPageField, resultFields) {
-    return this.getPagedResults(this.API_URL, nextPageField, resultFields);
+    if (!this.testMode) return this.getPagedResults(this.apiURL, nextPageField, resultFields);
+
+    const mockData = new MockData(this.apiType);
+    return mockData.getMockData();
   }
 
   async getPagedResults(pageURL, nextPageField, resultFields, results = []) {
