@@ -1,12 +1,8 @@
 import fetch from 'node-fetch';
 import Util from './util';
-import MockData from './mock-data';
 
 export default class Robinhood {
-  apiURL = null;
-  apiType = null;
-  testMode = false;
-
+  BATCH_REQUEST_SIZE = 10;
   ROBINHOOD_APIS = {
     orders: 'https://api.robinhood.com/orders/',
     options: 'https://api.robinhood.com/options/positions',
@@ -15,15 +11,11 @@ export default class Robinhood {
   constructor(accessToken, apiType, testMode = false) {
     this.headers = { Authorization: `Token ${accessToken}` };
     this.apiURL = this.ROBINHOOD_APIS[apiType];
-    this.apiType = apiType;
     this.testMode = testMode;
   }
 
   async getDataFromAPI(resultFields) {
-    if (!this.testMode) return this.getPagedResults(this.apiURL, 'next', resultFields);
-
-    const mockData = new MockData(this.apiType);
-    return mockData.getMockData();
+    return this.getPagedResults(this.apiURL, 'next', resultFields);
   }
 
   async getPagedResults(pageURL, nextPageField, resultFields, results = []) {
@@ -37,5 +29,25 @@ export default class Robinhood {
     }
 
     return apendedResults;
+  }
+
+  async batchRequest(urls, batchIndex = 0, results = []) {
+    const urlBatch = urls.slice(batchIndex * this.BATCH_REQUEST_SIZE, ((batchIndex + 1) * this.BATCH_REQUEST_SIZE));
+    const batchPromise = urlBatch.map(async (url) => {
+      const fetchResponse = await fetch(url, { methods: 'GET' });
+      const rawResponse = await fetchResponse.json();
+      return Util.filteredHash(rawResponse, this.instrumentDetailsKeys);
+    });
+
+    const batchResults = await Promise.all(batchPromise);
+    const appendedResults = [...results, ...batchResults];
+
+    const nextBatchIndex = batchIndex + 1;
+    const lastIndex = urls.length - 1;
+    if (nextBatchIndex * this.BATCH_REQUEST_SIZE <= lastIndex) {
+      return this.batchRequest(urls, this.BATCH_REQUEST_SIZE, nextBatchIndex, appendedResults);
+    }
+
+    return appendedResults;
   }
 }
