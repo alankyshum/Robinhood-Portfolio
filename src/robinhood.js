@@ -1,5 +1,4 @@
 import fetch from 'node-fetch';
-import Util from './util';
 
 export default class Robinhood {
   BATCH_REQUEST_SIZE = 10;
@@ -21,7 +20,7 @@ export default class Robinhood {
   async getPagedResults(pageURL, nextPageField, resultFields, results = []) {
     const fetchResponse = await fetch(pageURL, { methods: 'POST', headers: this.headers });
     const rawResponse = await fetchResponse.json();
-    const pageResult = rawResponse.results.map(responseResult => Util.filteredHash(responseResult, resultFields));
+    const pageResult = rawResponse.results.map(responseResult => Robinhood.filteredHash(responseResult, resultFields));
     const apendedResults = [...results, ...pageResult];
     const nextPageURL = rawResponse[nextPageField];
     if (nextPageURL) {
@@ -36,7 +35,7 @@ export default class Robinhood {
     const batchPromise = urlBatch.map(async (url) => {
       const fetchResponse = await fetch(url, { methods: 'GET' });
       const rawResponse = await fetchResponse.json();
-      return Util.filteredHash(rawResponse, this.instrumentDetailsKeys);
+      return Robinhood.filteredHash(rawResponse, this.instrumentDetailsKeys);
     });
 
     const batchResults = await Promise.all(batchPromise);
@@ -49,5 +48,12 @@ export default class Robinhood {
     }
 
     return appendedResults;
+  }
+
+  static filteredHash(srcHash, fields) {
+    const filteredObject = {};
+    fields.forEach((field) => { filteredObject[field] = srcHash[field]; });
+
+    return filteredObject;
   }
 }
