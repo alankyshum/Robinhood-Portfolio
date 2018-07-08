@@ -19,8 +19,8 @@ export default class Robinhood {
     this.testMode = testMode;
   }
 
-  async getDataFromAPI(nextPageField, resultFields) {
-    if (!this.testMode) return this.getPagedResults(this.apiURL, nextPageField, resultFields);
+  async getDataFromAPI(resultFields) {
+    if (!this.testMode) return this.getPagedResults(this.apiURL, 'next', resultFields);
 
     const mockData = new MockData(this.apiType);
     return mockData.getMockData();
