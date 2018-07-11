@@ -1,4 +1,4 @@
-import Robinhood from './robinhood';
+import Robinhood from './apis/robinhood';
 
 export default class Instruments extends Robinhood {
   constructor(accessToken, instrumentType, {

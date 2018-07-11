@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import Fetcher from './fetcher';
 
 export default class Robinhood {
   BATCH_REQUEST_SIZE = 10;
@@ -10,7 +10,7 @@ export default class Robinhood {
   constructor(accessToken, apiType, testMode = false) {
     this.headers = { Authorization: `Token ${accessToken}` };
     this.apiURL = this.ROBINHOOD_APIS[apiType];
-    this.testMode = testMode;
+    this.fetcher = new Fetcher({ testMode });
   }
 
   async getDataFromAPI(resultFields) {
@@ -18,8 +18,7 @@ export default class Robinhood {
   }
 
   async getPagedResults(pageURL, nextPageField, resultFields, results = []) {
-    const fetchResponse = await fetch(pageURL, { methods: 'POST', headers: this.headers });
-    const rawResponse = await fetchResponse.json();
+    const rawResponse = await this.fetcher.fetch(pageURL, { methods: 'POST', headers: this.headers });
     const pageResult = rawResponse.results.map(responseResult => Robinhood.filteredHash(responseResult, resultFields));
     const apendedResults = [...results, ...pageResult];
     const nextPageURL = rawResponse[nextPageField];
@@ -33,8 +32,7 @@ export default class Robinhood {
   async batchRequest(urls, batchIndex = 0, results = []) {
     const urlBatch = urls.slice(batchIndex * this.BATCH_REQUEST_SIZE, ((batchIndex + 1) * this.BATCH_REQUEST_SIZE));
     const batchPromise = urlBatch.map(async (url) => {
-      const fetchResponse = await fetch(url, { methods: 'GET' });
-      const rawResponse = await fetchResponse.json();
+      const rawResponse = await this.fetcher.fetch(url, { methods: 'GET' });
       return Robinhood.filteredHash(rawResponse, this.instrumentDetailsKeys);
     });
 
