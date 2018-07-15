@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import path from 'path';
-import { readFileSync, writeFileSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 
 export default class Fetcher {
   CACHED_FETCH = path.resolve('./.cached-fetch');
@@ -17,15 +17,10 @@ export default class Fetcher {
 
     const cachedFilePath = `${path.join(this.CACHED_FETCH, Fetcher.requestPathToFilePath(requestedPath))}.json`;
 
-    let cacheExists = true;
-    let cachedResponse;
-    try {
-      cachedResponse = readFileSync(cachedFilePath, 'utf-8');
-    } catch (e) {
-      if (e.code === 'ENOENT') { cacheExists = false; }
+    if (existsSync(cachedFilePath)) {
+      const cachedResponse = readFileSync(cachedFilePath, 'utf-8');
+      return Promise.resolve(JSON.parse(cachedResponse));
     }
-
-    if (cacheExists) { return Promise.resolve(JSON.parse(cachedResponse)); }
 
     const fetchResponse = await fetch(requestedPath, options);
     const responseJSON = await fetchResponse.json();
