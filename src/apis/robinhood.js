@@ -42,7 +42,7 @@ export default class Robinhood {
     const nextBatchIndex = batchIndex + 1;
     const lastIndex = urls.length - 1;
     if (nextBatchIndex * this.BATCH_REQUEST_SIZE <= lastIndex) {
-      return this.batchRequest(urls, this.BATCH_REQUEST_SIZE, nextBatchIndex, appendedResults);
+      return this.batchRequest(urls, nextBatchIndex, appendedResults);
     }
 
     return appendedResults;
