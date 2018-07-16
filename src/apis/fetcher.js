@@ -1,10 +1,9 @@
 import fetch from 'node-fetch';
 import path from 'path';
-import { existsSync, readFileSync, writeFileSync } from 'fs';
+import { promisify } from 'util';
+import { existsSync, readFileSync, mkdir, writeFileSync } from 'fs';
 
 export default class Fetcher {
-  CACHED_FETCH = path.resolve('./.cached-fetch');
-
   constructor({ testMode }) {
     this.testMode = testMode;
   }
@@ -15,20 +14,35 @@ export default class Fetcher {
       return fetchResponse.json();
     }
 
-    const cachedFilePath = `${path.join(this.CACHED_FETCH, Fetcher.requestPathToFilePath(requestedPath))}.json`;
-
-    if (existsSync(cachedFilePath)) {
-      const cachedResponse = readFileSync(cachedFilePath, 'utf-8');
-      return Promise.resolve(JSON.parse(cachedResponse));
-    }
-
-    const fetchResponse = await fetch(requestedPath, options);
-    const responseJSON = await fetchResponse.json();
-    writeFileSync(cachedFilePath, JSON.stringify(responseJSON), { flag: 'w' });
-    return Promise.resolve(responseJSON);
+    const cachedResponse = Fetcher.getCachedResponse(requestedPath);
+    if (cachedResponse) return Promise.resolve(cachedResponse);
+    return Fetcher.fetchAndCache(requestedPath, options);
   }
 
-  static requestPathToFilePath(requestedPath) {
-    return requestedPath.replace(/\/|\\|:/g, '_');
+  static async fetchAndCache(requestedPath, options) {
+    const cachedFilePath = Fetcher.getCachedPath(requestedPath);
+    const fetchResponsePromise = fetch(requestedPath, options).then(r => r.json());
+    const cacheFolderExists = existsSync(cachedFilePath.folder);
+    const createFilePromise = cacheFolderExists ? Promise.resolve(true) : promisify(mkdir)(cachedFilePath.folder);
+    const dataAndFileReady = await Promise.all([fetchResponsePromise, createFilePromise]);
+    writeFileSync(cachedFilePath.fileName, JSON.stringify(dataAndFileReady[0]));
+    return Promise.resolve(dataAndFileReady[0]);
+  }
+
+  static getCachedResponse(requestedPath) {
+    const cachedFilePath = Fetcher.getCachedPath(requestedPath);
+    if (!existsSync(cachedFilePath.fileName)) return null;
+    const cachedResponse = readFileSync(cachedFilePath.fileName, 'utf-8');
+    return JSON.parse(cachedResponse);
+  }
+
+  static getCachedPath(requestedPath) {
+    const cachedFetch = path.resolve('./.cached-fetch');
+    const requestedResource = requestedPath.replace(/\/|\\|:/g, '_');
+    const fileName = `${path.join(cachedFetch, requestedResource)}.json`;
+    return {
+      fileName,
+      folder: path.dirname(fileName),
+    };
   }
 }
