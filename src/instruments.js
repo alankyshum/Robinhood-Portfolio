@@ -15,14 +15,17 @@ export default class Instruments extends Robinhood {
     this.instrumentDetailsKeys = instrumentDetailsKeys;
   }
 
-  async getOrderHistory() {
+  async getOrderHistory(onlyFullRecords = true) {
     const orderHistory = await this.getDataFromAPI(this.orderKeys);
     const instrumentURLs = Array.from(new Set(orderHistory.map(order => order[this.instrumentURLKey])));
     const instrumentDetails = await this.batchRequest(instrumentURLs);
 
-    return Instruments.mergeOrdersWithinstrumentDetails(orderHistory, instrumentDetails, {
+    const history = Instruments.mergeOrdersWithinstrumentDetails(orderHistory, instrumentDetails, {
       orderKey: this.orderUniqueKey, instrumentKey: this.orderKeyEquivalentInstrumentKey,
     });
+
+    if (!onlyFullRecords) return history;
+    return history.filter(singleTrade => !Object.values(singleTrade).includes(null));
   }
 
   static mergeOrdersWithinstrumentDetails(orderHistory, instrumentDetails, { orderKey, instrumentKey }) {
@@ -30,6 +33,7 @@ export default class Instruments extends Robinhood {
     instrumentDetails.forEach((detail) => { instrumentHash[detail[instrumentKey]] = detail; });
 
     return orderHistory.map(order => ({
+      side: order.type, // conflicts of fields in 2 data sets
       ...order,
       ...instrumentHash[order[orderKey]],
     }));
