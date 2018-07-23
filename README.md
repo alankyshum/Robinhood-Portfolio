@@ -44,3 +44,8 @@ ROBINHOOD_TOKEN=ae96ffc0cb9b4fe4b997b7974381653497438165
 
 ## Versioning
 The versioning of this package follows semantic versioning `MAJOR.MINOR.PATCH`.
+
+## References
+
+### Unofficial Documentation of Robinhood Trade's Private API
+https://github.com/sanko/Robinhood/blob/ef63649f5d316e10f672c4d588a79cf0387c97df/README.md
