@@ -12,7 +12,7 @@ export default class Portfolio {
     });
 
     this.options = new Instruments(accessToken, 'options', {
-      orderKeys: ['chain_symbol', 'type', 'quantity', 'average_price', 'option', 'created_at'],
+      orderKeys: ['chain_symbol', 'closing_strategy', 'quantity', 'price', 'option=legs[0].option', 'updated_at'],
       orderUniqueKey: 'chain_symbol',
       orderKeyEquivalentInstrumentKey: 'chain_symbol',
       instrumentURLKey: 'option',

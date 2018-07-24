@@ -4,7 +4,7 @@ export default class Robinhood {
   BATCH_REQUEST_SIZE = 10;
   ROBINHOOD_APIS = {
     orders: 'https://api.robinhood.com/orders/',
-    options: 'https://api.robinhood.com/options/positions',
+    options: 'https://api.robinhood.com/options/orders/',
   };
 
   constructor(accessToken, apiType, testMode = false) {
@@ -50,7 +50,19 @@ export default class Robinhood {
 
   static filteredHash(srcHash, fields) {
     const filteredObject = {};
-    fields.forEach((field) => { filteredObject[field] = srcHash[field]; });
+
+    fields.forEach((field) => {
+      const mappedKeys = field.match(/(?<mainKey>\w+)=?(?<deepKey>.+)?/).groups;
+      let intermediateObject = srcHash;
+
+      if (mappedKeys.deepKey) {
+        const deepKeys = mappedKeys.deepKey.match(/\w+/g);
+        deepKeys.forEach((deepKey) => { intermediateObject = intermediateObject[deepKey]; });
+        filteredObject[mappedKeys.mainKey] = intermediateObject;
+      } else {
+        filteredObject[mappedKeys.mainKey] = intermediateObject[mappedKeys.mainKey];
+      }
+    });
 
     return filteredObject;
   }
