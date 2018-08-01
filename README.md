@@ -4,7 +4,7 @@
 ## Example
 1. Create/Edit the `.env` to supply the robinhood access token
 ```bash
-ROBINHOOD_TOKEN=ae96ffc0cb9b4fe4b997b7974381653497438165
+ROBINHOOD_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 2. run `spec/example.js` and check the output
 
