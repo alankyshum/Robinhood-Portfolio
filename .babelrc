@@ -1,8 +1,9 @@
 {
-  "presets": ["env"],
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-2"
+  ],
   "plugins": [
-    "transform-object-assign",
-    "transform-object-rest-spread",
-    "transform-class-properties"
+    "syntax-dynamic-import"
   ]
 }
