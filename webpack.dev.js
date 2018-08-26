@@ -63,6 +63,6 @@ module.exports = {
 	target: 'node',
 
 	plugins: [
-		new webpack.IgnorePlugin(/\/iconv-loader$/)
+		new webpack.NormalModuleReplacementPlugin(/\/iconv-loader$/, 'node-noop')
 	]
 };
