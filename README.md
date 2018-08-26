@@ -1,6 +1,16 @@
 # Robinhood Portfolio
 > Simply returns your Robinhood portfolio, with stock symbols, stock full name, and average buy price
 
+## Installation
+```bash
+npm install robinhood-portfolio
+```
+
+## Development
+```bash
+npm run build
+```
+
 ## Example
 1. Create/Edit the `.env` to supply the robinhood access token
 ```bash
