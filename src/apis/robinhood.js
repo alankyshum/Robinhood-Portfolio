@@ -1,8 +1,10 @@
 import Fetcher from './fetcher';
 
 export default class Robinhood {
+  INITIALISED = false;
   BATCH_REQUEST_SIZE = 10;
   ROBINHOOD_APIS = {
+    account: 'https://api.robinhood.com/accounts/',
     orders: 'https://api.robinhood.com/orders/',
     options: 'https://api.robinhood.com/options/orders/',
   };
@@ -13,7 +15,15 @@ export default class Robinhood {
     this.fetcher = new Fetcher({ testMode });
   }
 
+  async init() {
+    const accountInfo = await this.fetcher.fetch(this.ROBINHOOD_APIS.account, { method: 'GET', headers: this.headers });
+    const accessTokenValid = !/invalid token/i.test(accountInfo.detail);
+    if (!accessTokenValid) throw new Error('Access Token is invalid');
+    this.INITIALISED = true;
+  }
+
   async getDataFromAPI(resultFields) {
+    if (!this.INITIALISED) await this.init();
     return this.getPagedResults(this.apiURL, 'next', resultFields);
   }
 
