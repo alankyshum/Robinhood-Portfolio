@@ -1,6 +1,6 @@
 {
   "name": "robinhood-portfolio",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "return your robinhood portfolio as a es6 promise",
   "author": "alankyshum",
   "license": "MIT",
@@ -35,7 +35,6 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
     "node-noop": "^1.0.0",
-    "uglifyjs-webpack-plugin": "^1.3.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
   }
