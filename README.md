@@ -6,6 +6,18 @@
 npm install robinhood-portfolio
 ```
 
+## Usage
+1. Create/Edit the `.env` to provide the robinhood access token
+    ```bash
+    ROBINHOOD_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    ```
+1. Refer to `spec/example.js` for example API
+    * Alway refer to the example file for the most updated version
+    ```javascript
+    const portfolio = new Portfolio(process.env.ROBINHOOD_TOKEN, { testMode: false });
+    const orderHistory = await portfolio.getOrderHistory();
+    ```
+
 ## Development
 ```bash
 npm run build
@@ -14,13 +26,6 @@ cd <path-to-project-that-tests-this-package>
 npm link robinhood-portfolio
 # import { Portfolio } from 'robinhood-portfolio;
 ```
-
-## Example
-1. Create/Edit the `.env` to supply the robinhood access token
-    ```bash
-    ROBINHOOD_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    ```
-1. Refer to `spec/example.js` for example API
 
 ## Versioning
 The versioning of this package follows semantic versioning `MAJOR.MINOR.PATCH`.

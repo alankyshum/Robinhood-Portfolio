@@ -18,7 +18,7 @@ export default class Robinhood {
   async init() {
     const accountInfo = await this.fetcher.fetch(this.ROBINHOOD_APIS.account, { method: 'GET', headers: this.headers });
     const accessTokenValid = !/invalid token/i.test(accountInfo.detail);
-    if (!accessTokenValid) throw new Error('Access Token is invalid');
+    if (!accessTokenValid) throw new Error('Access Token is invalid. Please refer to the readme.md for more details.');
     this.INITIALISED = true;
   }
 
